@@ -4,7 +4,7 @@ const path = require('path');
 require('dotenv').config();
 
 const app = express();
-const port = process.env.PORT || 3000; // Порт может быть указан через переменную среды, иначе используется порт 3000
+const port = process.env.PORT || 80; // Порт может быть указан через переменную среды, иначе используется порт 3000
 
 // MongoDB Atlas connection string from .env file
 const uri = process.env.MONGODB_URI;
